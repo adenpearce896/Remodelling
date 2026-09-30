@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How Can Remodelling Expose Problems That Were Hidden for Years?</title>
+<meta name="google-site-verification" content="eGxnYIQB6I4NCF9zHuyBm56BnPc-V9XEDFYwuWlW0_s" />
+<meta name="description" content="Remodelling in Tacoma WA can reveal hidden problems like water damage, old wiring, and weak framing. Learn how Dreamline Remodeling handles issues found during renovation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+    :root{
+        --navy:#0B2545;
+        --navy-dark:#071a33;
+        --navy-light:#12325B;
+        --black:#111111;
+        --white:#ffffff;
+        --off-white:#f6f8fb;
+        --gray:#5b6472;
+    }
+
+    *{margin:0;padding:0;box-sizing:border-box;}
+
+    html{scroll-behavior:smooth;}
+
+    body{
+        font-family:'Montserrat', sans-serif;
+        background:#ffffff;
+        color:#222222;
+        line-height:1.8;
+        font-size:16px;
+        -webkit-font-smoothing:antialiased;
+    }
+
+    a{text-decoration:none;color:inherit;}
+
+    img{max-width:100%;display:block;}
+
+    /* ============ HEADER ============ */
+    .site-header{
+        background:#ffffff;
+        border-bottom:1px solid #e8ecf1;
+        position:sticky;
+        top:0;
+        z-index:1000;
+        box-shadow:0 2px 18px rgba(11,37,69,.06);
+    }
+
+    .header-inner{
+        max-width:1200px;
+        margin:0 auto;
+        padding:14px 24px;
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        gap:20px;
+    }
+
+    .logo img{
+        height:60px;
+        width:auto;
+    }
+
+    .header-nav{
+        display:flex;
+        align-items:center;
+        gap:26px;
+    }
+
+    .header-nav a.nav-link{
+        font-size:14px;
+        font-weight:600;
+        color:var(--navy);
+        letter-spacing:.3px;
+        transition:color .25s ease;
+    }
+
+    .header-nav a.nav-link:hover{color:#3f6fb5;}
+
+    .btn{
+        display:inline-block;
+        background:var(--navy);
+        color:#ffffff;
+        font-family:'Montserrat', sans-serif;
+        font-weight:700;
+        font-size:14px;
+        letter-spacing:.4px;
+        padding:13px 28px;
+        border-radius:6px;
+        border:2px solid var(--navy);
+        transition:all .3s ease;
+        cursor:pointer;
+        text-align:center;
+    }
+
+    .btn:hover{
+        background:#ffffff;
+        color:var(--navy);
+        border:2px solid var(--navy);
+    }
+
+    .btn-outline{
+        background:#ffffff;
+        color:var(--navy);
+        border:2px solid var(--navy);
+    }
+
+    .btn-outline:hover{
+        background:var(--navy);
+        color:#ffffff;
+    }
+
+    /* ============ HERO ============ */
+    .hero{
+        background:linear-gradient(135deg,var(--navy) 0%, var(--navy-light) 55%, #1c4a82 100%);
+        padding:80px 24px 90px;
+        position:relative;
+        overflow:hidden;
+    }
+
+    .hero::after{
+        content:"";
+        position:absolute;
+        right:-120px;
+        top:-120px;
+        width:420px;
+        height:420px;
+        border-radius:50%;
+        background:rgba(255,255,255,.05);
+    }
+
+    .hero::before{
+        content:"";
+        position:absolute;
+        left:-90px;
+        bottom:-140px;
+        width:300px;
+        height:300px;
+        border-radius:50%;
+        background:rgba(255,255,255,.04);
+    }
+
+    .hero-inner{
+        max-width:1000px;
+        margin:0 auto;
+        text-align:center;
+        position:relative;
+        z-index:2;
+    }
+
+    .hero-tag{
+        display:inline-block;
+        background:rgba(255,255,255,.14);
+        color:#ffffff;
+        font-size:12px;
+        font-weight:700;
+        letter-spacing:1.6px;
+        text-transform:uppercase;
+        padding:8px 20px;
+        border-radius:50px;
+        margin-bottom:22px;
+        border:1px solid rgba(255,255,255,.22);
+    }
+
+    .hero h1{
+        color:#ffffff;
+        font-size:40px;
+        line-height:1.25;
+        font-weight:800;
+        letter-spacing:-.5px;
+        margin-bottom:18px;
+    }
+
+    .hero p.sub{
+        color:#c9d8ea;
+        font-size:16px;
+        font-weight:400;
+        max-width:720px;
+        margin:0 auto 30px;
+    }
+
+    /* ============ ARTICLE ============ */
+    .article-wrap{
+        max-width:900px;
+        margin:0 auto;
+        padding:70px 24px 40px;
+    }
+
+    .article-body p{
+        color:#2b2b2b;
+        font-size:16.5px;
+        margin-bottom:22px;
+        font-weight:400;
+    }
+
+    .article-body h2{
+        font-size:26px;
+        font-weight:800;
+        color:var(--navy);
+        margin:48px 0 20px;
+        line-height:1.35;
+        padding-left:18px;
+        border-left:5px solid var(--navy);
+        letter-spacing:-.2px;
+    }
+
+    .article-body h3{
+        font-size:18px;
+        font-weight:700;
+        color:var(--black);
+        margin:30px 0 10px;
+        line-height:1.4;
+    }
+
+    .article-body a.inline-link{
+        color:var(--navy);
+        font-weight:700;
+        border-bottom:2px solid rgba(11,37,69,.25);
+        transition:all .25s ease;
+    }
+
+    .article-body a.inline-link:hover{
+        color:#3f6fb5;
+        border-bottom-color:#3f6fb5;
+    }
+
+    /* ============ INTERLINK BOX ============ */
+    .interlink-box{
+        background:#f6f8fb;
+        border-left:5px solid var(--navy);
+        border-radius:10px;
+        padding:22px 26px;
+        margin:44px 0 10px;
+        font-size:15.5px;
+        color:#2b2b2b;
+    }
+
+    .interlink-box a{
+        color:var(--navy);
+        font-weight:700;
+        border-bottom:2px solid rgba(11,37,69,.25);
+        transition:all .25s ease;
+    }
+
+    .interlink-box a:hover{
+        color:#3f6fb5;
+        border-bottom-color:#3f6fb5;
+    }
+
+    /* ============ CARD ============ */
+    .info-card{
+        background:var(--black);
+        color:#ffffff;
+        border-radius:14px;
+        padding:32px 30px;
+        margin:44px 0;
+        position:relative;
+        overflow:hidden;
+        box-shadow:0 18px 40px rgba(0,0,0,.22);
+    }
+
+    .info-card::before{
+        content:"";
+        position:absolute;
+        top:0;
+        left:0;
+        width:6px;
+        height:100%;
+        background:var(--navy-light);
+    }
+
+    .info-card h3{
+        color:#ffffff;
+        font-size:20px;
+        font-weight:800;
+        margin-bottom:12px;
+    }
+
+    .info-card p{
+        color:#d7dde6;
+        margin-bottom:0;
+        font-size:15.5px;
+    }
+
+    /* ============ FAQ ============ */
+    .faq-block{
+        margin-top:20px;
+    }
+
+    .faq-item{
+        background:#f6f8fb;
+        border:1px solid #e5ebf3;
+        border-left:5px solid var(--navy);
+        border-radius:10px;
+        padding:24px 26px;
+        margin-bottom:18px;
+        transition:all .3s ease;
+    }
+
+    .faq-item:hover{
+        box-shadow:0 10px 26px rgba(11,37,69,.10);
+        transform:translateY(-2px);
+    }
+
+    .faq-item h3{
+        margin-top:0;
+        color:var(--navy);
+        font-size:17px;
+        font-weight:800;
+    }
+
+    .faq-item p{
+        margin-bottom:0;
+        font-size:15.5px;
+    }
+
+    /* ============ MAP SECTION ============ */
+    .map-section{
+        background:var(--off-white);
+        padding:70px 24px;
+        margin-top:50px;
+    }
+
+    .map-inner{
+        max-width:1100px;
+        margin:0 auto;
+        text-align:center;
+    }
+
+    .map-inner h2{
+        font-size:30px;
+        font-weight:800;
+        color:var(--navy);
+        margin-bottom:12px;
+        letter-spacing:-.3px;
+    }
+
+    .map-inner p.map-sub{
+        color:var(--gray);
+        font-size:16px;
+        margin-bottom:34px;
+    }
+
+    .map-frame{
+        border-radius:14px;
+        overflow:hidden;
+        box-shadow:0 20px 50px rgba(11,37,69,.15);
+        border:5px solid #ffffff;
+        line-height:0;
+    }
+
+    .map-frame iframe{
+        width:100%;
+        height:450px;
+        border:0;
+        display:block;
+    }
+
+    /* ============ CONTACT ============ */
+    .contact-section{
+        background:var(--navy);
+        padding:70px 24px;
+        color:#ffffff;
+    }
+
+    .contact-inner{
+        max-width:1100px;
+        margin:0 auto;
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        gap:50px;
+        align-items:center;
+    }
+
+    .contact-inner h2{
+        font-size:30px;
+        font-weight:800;
+        margin-bottom:16px;
+        color:#ffffff;
+        line-height:1.3;
+    }
+
+    .contact-inner p.lead{
+        color:#c2d2e6;
+        font-size:16px;
+        margin-bottom:26px;
+    }
+
+    .contact-list{
+        list-style:none;
+    }
+
+    .contact-list li{
+        display:flex;
+        align-items:flex-start;
+        gap:14px;
+        margin-bottom:18px;
+        color:#e3ebf5;
+        font-size:15.5px;
+        font-weight:500;
+    }
+
+    .contact-list li span.icon{
+        flex:0 0 auto;
+        width:38px;
+        height:38px;
+        border-radius:8px;
+        background:rgba(255,255,255,.12);
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        font-size:16px;
+    }
+
+    .contact-list li a{
+        color:#ffffff;
+        font-weight:600;
+        border-bottom:1px solid rgba(255,255,255,.3);
+        transition:border-color .25s ease;
+    }
+
+    .contact-list li a:hover{border-bottom-color:#ffffff;}
+
+    .contact-cta{
+        background:rgba(255,255,255,.06);
+        border:1px solid rgba(255,255,255,.14);
+        border-radius:14px;
+        padding:36px 32px;
+        text-align:center;
+    }
+
+    .contact-cta h3{
+        color:#ffffff;
+        font-size:22px;
+        font-weight:800;
+        margin-bottom:12px;
+    }
+
+    .contact-cta p{
+        color:#c2d2e6;
+        font-size:15px;
+        margin-bottom:24px;
+    }
+
+    /* ============ FOOTER ============ */
+    .site-footer{
+        background:var(--navy-dark);
+        color:#9fb3cc;
+        padding:40px 24px;
+        text-align:center;
+        font-size:14px;
+    }
+
+    .site-footer .footer-logo{
+        height:50px;
+        width:auto;
+        margin:0 auto 18px;
+        filter:brightness(0) invert(1);
+        opacity:.92;
+    }
+
+    .site-footer a{color:#ffffff;font-weight:600;}
+
+    .site-footer .footer-line{
+        margin-top:10px;
+        font-size:13px;
+        color:#7f93ad;
+    }
+
+    /* ============ RESPONSIVE ============ */
+    @media (max-width:900px){
+        .contact-inner{grid-template-columns:1fr;}
+        .hero h1{font-size:32px;}
+    }
+
+    @media (max-width:720px){
+        .header-nav{display:none;}
+        .hero{padding:60px 18px 70px;}
+        .hero h1{font-size:26px;}
+        .article-body h2{font-size:22px;}
+        .map-inner h2{font-size:24px;}
+        .contact-inner h2{font-size:24px;}
+        .article-wrap{padding:50px 18px 30px;}
+        .map-frame iframe{height:340px;}
+    }
+</style>
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header">
+    <div class="header-inner">
+        <a href="https://dreamline-remodeling.com/" class="logo" aria-label="Dreamline Remodeling">
+            <img src="https://dreamline-remodeling.com/wp-content/uploads/2026/09/Dream-Line-Logo-02-2-scaled.png" alt="Dreamline Remodeling Logo">
+        </a>
+        <nav class="header-nav">
+            <a class="btn" href="tel:+12066599766">Call (206) 659-9766</a>
+        </nav>
+    </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+    <div class="hero-inner">
+        <span class="hero-tag">Dreamline Remodeling &bull; Tacoma, WA</span>
+        <h1>How Can Remodelling Expose Problems That Were Hidden for Years?</h1>
+        <p class="sub">A closer look at the hidden issues that surface during renovation and how professional contractors handle them with care.</p>
+    </div>
+</section>
+
+<!-- ================= ARTICLE ================= -->
+<main class="article-wrap">
+    <article class="article-body">
+
+        <p>A home can look safe and sound while serious problems stay hidden behind walls, floors, and ceilings. Over time, small leaks, old wiring, weak framing, and moisture can cause damage. These issues may remain unnoticed because finished surfaces cover them from view. Once renovation work starts, these hidden conditions can become clear. This is why <a class="inline-link" href="https://maps.app.goo.gl/VKWbVvxXhL8DsPaF6" target="_blank" rel="noopener">Remodelling in Tacoma WA</a> should begin with a careful review of the existing home. Dreamline Remodeling helps homeowners understand what may be found before new work moves forward.</p>
+
+        <h2>Why Remodelling Can Reveal Hidden Home Problems</h2>
+
+        <p>Remodelling often involves removing materials that have protected older parts of a home from view. Walls may be opened, flooring may be removed, and ceilings may be changed. These steps can expose areas that have not been inspected for many years.</p>
+
+        <p>A home may have had a slow leak that never caused a visible stain. A damaged pipe may have allowed moisture to reach wood inside a wall. Old framing may also have weakened without showing clear signs from the outside.</p>
+
+        <p>During Home Renovations, these areas become easier to inspect. A General Contractor can review exposed spaces and determine whether repairs are needed before new materials are installed.</p>
+
+        <h2>Water Damage Can Stay Hidden Behind Walls</h2>
+
+        <p>Water damage is one of the most common issues that can remain hidden for years. A small leak may occur inside a wall or beneath a floor without creating obvious surface damage.</p>
+
+        <p>Over time, moisture can affect wood, insulation, drywall, and other materials. It can also create conditions that support mold growth. The problem may only become visible when a wall or floor is opened during Remodelling.</p>
+
+        <p>Bathroom areas deserve close attention because water is used often. During Bathroom Remodelling, old plumbing connections and nearby framing may be exposed. Any signs of moisture damage should be reviewed before new walls or finishes are installed.</p>
+
+        <h2>Old Plumbing Can Create Unexpected Issues</h2>
+
+        <p>Older plumbing systems can develop problems that are not easy to see. Pipes may corrode, joints may weaken, and connections may begin to leak slowly.</p>
+
+        <p>A renovation may require moving sinks, toilets, showers, or other fixtures. This work can expose old pipes that were hidden behind walls or beneath floors. A contractor may then find that the existing system needs repair before new fixtures can be connected.</p>
+
+        <p>Plumbing concerns can also appear in kitchens. During Kitchen Remodelling, cabinets and walls may be removed to create a new layout. This can expose pipes that have been leaking or showing signs of wear.</p>
+
+        <h2>Electrical Problems May Appear During Renovation</h2>
+
+        <p>Electrical systems can also hide problems for many years. Older wiring may have worn insulation, outdated connections, or other concerns that are not visible during normal daily use.</p>
+
+        <p>Remodelling often requires new lights, outlets, appliances, and other electrical features. Existing wiring may need to support these changes. When walls are opened, the condition and layout of the wiring can become easier to review.</p>
+
+        <p>This does not mean every older electrical system is unsafe. However, renovation creates an opportunity to inspect areas that were previously difficult to access. Qualified professionals can determine whether electrical updates are needed for the planned work.</p>
+
+        <h2>Weak Framing Can Stay Hidden for Years</h2>
+
+        <p>The framing inside walls supports important parts of the home. Yet homeowners usually cannot see this structure once drywall and other finishes are installed.</p>
+
+        <p>When walls are removed or opened, damaged framing may become visible. Wood can weaken because of moisture, insects, age, or past construction issues. Some homes may also contain framing that was altered by earlier projects.</p>
+
+        <p>These findings can affect the renovation plan. A contractor may need to repair or reinforce certain areas before new walls or finishes are added. Addressing these concerns early can help create a stronger base for the next stage of the project.</p>
+
+        <h2>Flooring Can Hide Subfloor Damage</h2>
+
+        <p>Flooring can cover problems beneath the surface for a long time. A floor may look level and clean while the subfloor has moisture damage or weak areas.</p>
+
+        <p>When old flooring is removed, contractors can inspect the surface below. They may find stains, soft wood, uneven sections, or signs of past leaks. These problems can affect the installation of new flooring.</p>
+
+        <p>Homeowners seeking Flooring Services should understand the value of proper floor preparation. New flooring should not simply cover damaged material. The surface beneath it should be reviewed and prepared before installation.</p>
+
+        <h2>Mold and Moisture May Become Visible</h2>
+
+        <p>Moisture can create conditions where mold develops. However, mold may remain hidden behind drywall, under flooring, or inside areas with poor air flow.</p>
+
+        <p>Remodelling can expose these spaces and reveal signs that were not visible before construction. Dark marks, musty odors, damaged materials, or damp wood may point to a moisture issue.</p>
+
+        <p>Finding mold does not mean the entire renovation must stop. The source of moisture should first be identified. Depending on the situation, specialized professionals may also need to assess or remove affected materials.</p>
+
+        <h2>Older Repairs May Hide Larger Problems</h2>
+
+        <p>Previous repairs can sometimes cover issues instead of solving their source. For example, a wall may have been patched after a leak while the underlying plumbing problem remained.</p>
+
+        <p>During a new renovation, those earlier repair areas may be removed. This gives the contractor a chance to see what was done in the past and whether the original issue was fully addressed.</p>
+
+        <p>This is especially important in older homes that have experienced several changes over the years. Each project may have used different materials or methods. A new renovation should account for these past changes before adding more work.</p>
+
+        <h2>Hidden Code and Construction Issues</h2>
+
+        <p>Older construction may not match the requirements used for newer renovation work. Existing conditions can also make it harder to complete planned changes.</p>
+
+        <p>When walls, ceilings, or other areas are opened, a General Contractor may discover construction details that require further review. The contractor can then determine whether the planned work needs to be adjusted.</p>
+
+        <p>Local requirements can also affect structural, electrical, plumbing, and other work. Reviewing these matters before covering newly completed areas can help reduce future problems.</p>
+
+        <p>For homeowners planning Remodelling in Tacoma WA, early planning and inspection can make the project easier to manage. It gives the team a better understanding of the home's actual condition.</p>
+
+        <h2>How Contractors Handle Problems Found During Remodelling</h2>
+
+        <p>Finding hidden problems does not always mean the renovation has failed. In many cases, discovering an issue early is useful because it allows the problem to be addressed before new materials cover it again.</p>
+
+        <p>The contractor can document the affected area and determine what type of repair may be needed. The project plan may then be adjusted based on the new information.</p>
+
+        <p>Clear communication is important at this stage. Homeowners should understand what was found, where it is located, and how it may affect the planned work. This helps everyone make informed decisions before construction continues.</p>
+
+        <p><a class="inline-link" href="https://dreamline-remodeling.com/" target="_blank" rel="noopener">Dreamline Remodeling</a> approaches Home Renovations by considering the existing condition of the home before moving ahead with new finishes. Careful inspection can help create a better plan for the work and reduce surprises as the project progresses.</p>
+
+        <!-- ================= INTERLINK BOX ================= -->
+        <div class="interlink-box">
+            <strong>Related Reading:</strong> <a href="https://adenpearce896.github.io/General-Contractor/" target="_blank" rel="noopener">What Should a General Contractor Inspect Before Starting a Home Renovation?</a>
+        </div>
+
+        <!-- ================= INFO CARD ================= -->
+        <div class="info-card">
+            <h3>Facing Hidden Problems in Your Tacoma Home?</h3>
+            <p>Dreamline Remodeling helps homeowners identify and address issues found during remodelling. From water damage and old wiring to weak framing and subfloor repairs, our team handles every project with professional care.</p>
+        </div>
+
+        <!-- ================= FAQ ================= -->
+        <h2>FAQs</h2>
+
+        <div class="faq-block">
+
+            <div class="faq-item">
+                <h3>Can Remodelling really reveal problems that have existed for years?</h3>
+                <p>Yes. Removing walls, floors, cabinets, and ceilings can expose areas that were hidden for many years. Contractors may discover moisture damage, old wiring, plumbing issues, or damaged framing during this process.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Why is water damage often discovered during Bathroom Remodelling?</h3>
+                <p>Bathrooms have frequent exposure to water and moisture. Small leaks can remain hidden behind walls or beneath floors. Removing old finishes can expose damaged wood, plumbing connections, or other signs of long term moisture.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Can old electrical wiring become visible during Home Renovations?</h3>
+                <p>Yes. Electrical wiring is often placed inside walls and ceilings. When these areas are opened during renovation, the wiring becomes easier to inspect. A qualified professional can determine whether changes are needed.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>What happens if damaged flooring is found during renovation?</h3>
+                <p>The damaged area should be assessed before new flooring is installed. Depending on the condition, the subfloor or supporting materials may need repair or replacement before new Flooring Services are completed.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Should hidden problems always be repaired before Remodelling continues?</h3>
+                <p>Problems that affect safety, structure, moisture control, or the planned work should be addressed before they are covered. The right approach depends on the type and severity of the issue.</p>
+            </div>
+
+        </div>
+
+        <!-- ================= CONCLUSION ================= -->
+        <h2>Conclusion</h2>
+
+        <p>Remodelling can reveal parts of a home that have remained hidden for many years. Walls, floors, ceilings, and cabinets can cover leaks, damaged framing, old plumbing, electrical concerns, and moisture issues.</p>
+
+        <p>Finding these problems early gives homeowners and contractors a chance to address them before new materials are installed. This can create a stronger foundation for the rest of the project.</p>
+
+        <p>Whether the project involves Kitchen Remodelling, Bathroom Remodelling, Flooring Services, or larger <a class="inline-link" href="https://dreamline-remodeling.com/" target="_blank" rel="noopener">Home Renovations</a>, careful inspection matters. With proper planning and professional guidance, hidden issues can be identified and managed as part of the renovation process.</p>
+
+    </article>
+</main>
+
+<!-- ================= MAP SECTION ================= -->
+<section class="map-section">
+    <div class="map-inner">
+        <h2>Find Us on Google Maps</h2>
+        <p class="map-sub">Visit Dreamline Remodeling in Tacoma, WA — we proudly serve homeowners throughout the surrounding areas.</p>
+        <div class="map-frame">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d273693.9663053266!2d-122.37122099999999!3d47.3069744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905712b2669d7d%3A0x9c741734adf4db8f!2sDreamline%20Remodeling!5e1!3m2!1sen!2s!4v1790802329667!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+    </div>
+</section>
+
+<!-- ================= CONTACT SECTION ================= -->
+<section class="contact-section">
+    <div class="contact-inner">
+        <div>
+            <h2>Ready to Start Your Home Renovation?</h2>
+            <p class="lead">Talk to Dreamline Remodeling about your project. We inspect first, plan carefully, and build with confidence.</p>
+            <ul class="contact-list">
+                <li>
+                    <span class="icon">&#128205;</span>
+                    <span>6601 20th ST NE, Tacoma, WA 98422, United States</span>
+                </li>
+                <li>
+                    <span class="icon">&#128222;</span>
+                    <span><a href="tel:+12066599766">(206) 659-9766</a></span>
+                </li>
+                <li>
+                    <span class="icon">&#9993;</span>
+                    <span><a href="mailto:dreamlineremodel@gmail.com">dreamlineremodel@gmail.com</a></span>
+                </li>
+                <li>
+                    <span class="icon">&#127760;</span>
+                    <span><a href="https://dreamline-remodeling.com/" target="_blank" rel="noopener">https://dreamline-remodeling.com/</a></span>
+                </li>
+            </ul>
+        </div>
+        <div class="contact-cta">
+            <h3>Get a Free Consultation</h3>
+            <p>Let our team review your home and help you plan a renovation that lasts.</p>
+            <a class="btn btn-outline" href="tel:+12066599766">Call Now: (206) 659-9766</a>
+        </div>
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+    <img class="footer-logo" src="https://dreamline-remodeling.com/wp-content/uploads/2026/09/Dream-Line-Logo-02-2-scaled.png" alt="Dreamline Remodeling">
+    <p>Dreamline Remodeling &bull; 6601 20th ST NE, Tacoma, WA 98422, United States</p>
+    <p style="margin-top:6px;">Phone: <a href="tel:+12066599766">(206) 659-9766</a> &nbsp;|&nbsp; Email: <a href="mailto:dreamlineremodel@gmail.com">dreamlineremodel@gmail.com</a></p>
+    <p class="footer-line">&copy; 2026 Dreamline Remodeling. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
